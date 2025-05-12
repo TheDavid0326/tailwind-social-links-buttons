@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+    
+    /* Custom colors */
+    --color-primary: #3490dc;
+    --color-secondary: #ffed4a;
+
+    /* Breakpoints */
+    --breakpoint-xs: 480px;
+}
+
+/*
+@layer se usa para decirle a Tailwind en qué capa del CSS quiere que tu regla personalizada esté:
+
+@layer base: estilos básicos (reset, body, h1, etc.)
+@layer components: para clases reutilizables, como .social-icon
+@layer utilities: para utilidades como .mt-4, .text-center, etc.
+
+Esto permite que Tailwind gestione bien el orden de prioridades 
+(especificidad) y elimine correctamente estilos no usados en producción (purge).
+*/
+
+@layer components {
+    .social-icon {
+        @apply p-2 size-12 sm:size-16 flex items-center justify-center rounded-full 
+                    hover:scale-110 transition transform shadow-lg;
+    }
+}
