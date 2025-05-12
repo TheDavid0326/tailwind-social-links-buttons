@@ -2,6 +2,10 @@
 
 Este es el sitio web personal de **David Castro Vidal** (@TheDavid0326), diseñado para presentar sus habilidades, proyectos y enlaces a redes sociales. Desarrollado con HTML semántico, CSS moderno usando **TailwindCSS**, y un enfoque centrado en el diseño visual y la experiencia del usuario.
 
+<div align="center">
+  <img src=https://i.imgur.com/bkHggJY.png" width="800">
+</div>
+
 ---
 
 ## 🧑‍💻 Sobre mí
